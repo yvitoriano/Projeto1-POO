@@ -43,3 +43,7 @@ class Academia:
 
 academia = Academia("FitLife")
 print(f"Nome da academia: {academia.get_nome()}")
+
+instrutores.set_instrutores("Julia,Marcos")
+
+print(f"Instrutores da academia: {instrutores.get_instrutores()}")
