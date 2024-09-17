@@ -41,6 +41,7 @@ class Academia:
         for aluno in self._alunos:
             print(aluno)
 
+#Testes
 academia = Academia("FitLife")
 print(f"Nome da academia: {academia.get_nome()}")
 
