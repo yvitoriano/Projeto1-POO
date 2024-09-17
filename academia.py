@@ -7,7 +7,7 @@ class Academia:
 
     # Getters
     def get_nome(self):
-        return self._nome
+        return self._nome 
 
     def get_instrutores(self):
         return self._instrutores
