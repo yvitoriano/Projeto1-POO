@@ -1,3 +1,4 @@
+
 class Aluno:
     def __init__(self, nome, idade, matricula, peso, altura):
         self.nome = nome
@@ -44,12 +45,5 @@ class Aluno:
     def exibir_informacoes(self):
         print(f"Nome: {self.nome}, Idade: {self.idade}, Matrícula: {self.matricula}, Peso: {self.peso}kg, Altura: {self.altura}m")
 
-# Criando uma instância da classe Aluno
-aluno1 = Aluno('Júlia Pereira', 17, 'y1234', 60, 1.70)
-aluno1.exibir_informacoes()
-print(f"IMC: {aluno1.calcular_imc()}")
-        
-    
-    
-
-
+aluno1 = Aluno("João", 25, "A111", 70, 1.75)
+aluno2 = Aluno("Julia", 17, "A222", 62, 1.60)

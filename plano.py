@@ -24,11 +24,8 @@ class PlanoDeTreino:
     def set_exercicios(self, exercicios):
         self._exercicios = exercicios
 
-    def __print__(self):
+    def __str__(self):
         return f"Plano: {self._nome}, Duração: {self._duracao} semanas, Exercícios: {', '.join(self._exercicios)}"
-
-plano1 = PlanoDeTreino("Plano de Força", 12, ["Supino", "Agachamento", "Remada"])
-plano2 = PlanoDeTreino("Plano de Resistência", 8, ["Corrida", "Ciclismo", "Natação"])
-
-print(f"Plano: {plano1.get_nome()}, Duração: {plano1.get_duracao()} semanas, Exercícios: {', '.join(plano1.get_exercicios())}")
-
+    
+plano1 = PlanoDeTreino("Plano de Resitência", 12, ["Agachamento", "Supino", "Corrida"])
+plano2 = PlanoDeTreino("Plano de Hipertrofia", 4, ["Elevação lateral", "Afundo", "flexão"])
